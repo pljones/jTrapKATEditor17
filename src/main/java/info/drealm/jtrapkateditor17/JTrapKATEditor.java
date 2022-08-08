@@ -52,6 +52,9 @@ public class JTrapKATEditor {
                 }
             });
 
+            // this runs the app
+            top.setVisible(true);
+
         } catch (Exception e) {
             e.printStackTrace();
             System.exit(1);
